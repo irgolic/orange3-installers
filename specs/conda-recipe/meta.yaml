@@ -51,8 +51,9 @@ requirements:
     - matplotlib    >=2.0.0
     - opentsne      >=0.4.3
     - pandas        ==1.1.*
-    - orange-canvas-core >=0.1.19
-    - orange-widget-base >=4.12.0
+    - pip:
+      - git+https://github.com/irgolic/orange-canvas-core.git@f0d0d5af365c58d8a3db46b50fc844a3a0ca8210
+      - git+https://github.com/irgolic/orange-widget-base.git@d523b55168f5166cdb830b30f815f9b1c55beb6a
     - pyyaml
     - openpyxl
     - baycomp    >=1.0.2
